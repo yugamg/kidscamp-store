@@ -1,0 +1,433 @@
+{
+  "products": [
+    {
+      "id": "floral-party-dress",
+      "category_id": "little-royals",
+      "name": "Floral Party Dress",
+      "short_description": "Elegant floral print dress for special occasions.",
+      "long_description": "Charming floral dress with satin finish and ribbon accents.",
+      "color_variants": ["Floral Pink", "Ivory Floral"],
+      "size_variants": ["2-3 yrs", "4-5 yrs"],
+      "prices": {
+        "Floral Pink": {
+          "2-3 yrs": 75,
+          "4-5 yrs": 80
+        },
+        "Ivory Floral": {
+          "2-3 yrs": 75,
+          "4-5 yrs": 80
+        }
+      },
+      "midjourney_prompt": "child elegantly dressed in floral print satin dress, festive atmosphere.",
+      "tag": "popular",
+      "made_in": "Italy",
+      "materials_used": "Satin, Cotton lining, Ribbon",
+      "imgUrl": ["https://images.ctfassets.net/qm3xz8whzgyj/6eMYkbC5jddoIvYfOJ3Yod/4b49ad4cec0a80068a0d29637078d5c5/floral-party-dress.png"]
+    },
+    {
+      "id": "denim-overalls",
+      "category_id": "everyday-luxe",
+      "name": "Denim Overalls",
+      "short_description": "Classic denim overalls perfect for everyday wear.",
+      "long_description": "Comfortable denim overalls with adjustable straps and pockets.",
+      "color_variants": ["Classic Blue"],
+      "size_variants": ["3-4 yrs", "5-6 yrs"],
+      "prices": {
+        "Classic Blue": {
+          "3-4 yrs": 50,
+          "5-6 yrs": 55
+        }
+      },
+      "midjourney_prompt": "playful child wearing denim overalls, casual and playful environment.",
+      "tag": "essential",
+      "made_in": "USA",
+      "materials_used": "100% Cotton Denim",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/74IuiyLics0u9DWa7fIO8V/d6a087ef8943d4cf328634d693a68157/denim-overalls-1.png",
+        "https://images.ctfassets.net/qm3xz8whzgyj/7KlxsPO0m4Ky3VO0OVhKrO/cccaca4cb3e5aba53b3b49e5f6dc88c1/denim-overalls-2.png"
+      ]
+    },
+    {
+      "id": "plush-bathrobe",
+      "category_id": "dreamy-nights",
+      "name": "Plush Bathrobe",
+      "short_description": "Ultra-soft bathrobe for cozy evenings.",
+      "long_description": "Luxurious plush bathrobe ideal for comfort and warmth after bath or bedtime.",
+      "color_variants": ["White", "Sky Blue"],
+      "size_variants": ["2-3 yrs", "4-5 yrs"],
+      "prices": {
+        "White": {
+          "2-3 yrs": 45,
+          "4-5 yrs": 50
+        },
+        "Sky Blue": {
+          "2-3 yrs": 45,
+          "4-5 yrs": 50
+        }
+      },
+      "discounted_prices": {
+        "Sky Blue": {
+          "4-5 yrs": 40
+        }
+      },
+      "midjourney_prompt": "child wrapped comfortably in plush bathrobe, cozy home scene.",
+      "tag": "cozy",
+      "made_in": "Turkey",
+      "materials_used": "Plush Microfiber",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/hVpmnnTckg64l6sRYjXO5/7ff5182b134939dcbe7c130eaac97f9e/plush-bathrobe-1.png",
+        "https://images.ctfassets.net/qm3xz8whzgyj/hVpmnnTckg64l6sRYjXO5/7ff5182b134939dcbe7c130eaac97f9e/plush-bathrobe-2.png"
+      ]
+    },
+    {
+      "id": "linen-summer-shirt",
+      "category_id": "everyday-luxe",
+      "name": "Linen Summer Shirt",
+      "short_description": "Breathable linen shirt perfect for summer.",
+      "long_description": "Light and airy linen shirt to keep cool in style during hot weather.",
+      "color_variants": ["White", "Light Blue"],
+      "size_variants": ["4-5 yrs", "6-7 yrs"],
+      "prices": {
+        "White": {
+          "4-5 yrs": 40,
+          "6-7 yrs": 45
+        },
+        "Light Blue": {
+          "4-5 yrs": 40,
+          "6-7 yrs": 45
+        }
+      },
+      "midjourney_prompt": "child enjoying sunny day wearing linen shirt, beach environment.",
+      "tag": "summer",
+      "made_in": "Portugal",
+      "materials_used": "100% Linen",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/5kux8F7tOUS9aiK49xVK14/40d811e5ae1ae96e7a9404e108692253/linen-summer-shirt-2.png"
+      ]
+    },
+    {
+      "id": "cotton-nightdress",
+      "category_id": "dreamy-nights",
+      "name": "Cotton Nightdress",
+      "short_description": "Soft cotton nightdress for sweet dreams.",
+      "long_description": "Comfortable and gentle cotton nightdress designed for restful sleep.",
+      "color_variants": ["Pink", "Lilac"],
+      "size_variants": ["2-3 yrs", "4-5 yrs"],
+      "prices": {
+        "Pink": {
+          "2-3 yrs": 30,
+          "4-5 yrs": 35
+        },
+        "Lilac": {
+          "2-3 yrs": 30,
+          "4-5 yrs": 35
+        }
+      },
+      "midjourney_prompt": "peacefully sleeping child in soft cotton nightdress, calm bedroom.",
+      "tag": "sleepwear",
+      "made_in": "India",
+      "materials_used": "Organic Cotton",
+      "imgUrl": ["https://images.ctfassets.net/qm3xz8whzgyj/3y8DLedzXXAho1hUr2dCRz/40e0ca74dce29bf52cf899252b535390/cotton-nightdress.png"]
+    },
+    {
+      "id": "puffer-winter-jacket",
+      "category_id": "adventure-club",
+      "name": "Puffer Winter Jacket",
+      "short_description": "Insulated jacket for cold outdoor adventures.",
+      "long_description": "Stylish puffer jacket providing warmth and protection in winter.",
+      "color_variants": ["Navy", "Red"],
+      "size_variants": ["5-6 yrs", "7-8 yrs"],
+      "prices": {
+        "Navy": {
+          "5-6 yrs": 90,
+          "7-8 yrs": 95
+        },
+        "Red": {
+          "5-6 yrs": 90,
+          "7-8 yrs": 95
+        }
+      },
+      "discounted_prices": {
+        "Red": {
+          "5-6 yrs": 80
+        }
+      },
+      "midjourney_prompt": "child outdoors in snow wearing insulated puffer jacket.",
+      "tag": "warm",
+      "made_in": "Canada",
+      "materials_used": "Polyester shell, Down filling",
+      "imgUrl": ["https://images.ctfassets.net/qm3xz8whzgyj/1WpxyRgQFINVuEk3vYi6GE/48ad7a5b75ee1b085c3a813f2481ef50/puffer-winter-jacket.png"]
+    },
+    {
+      "id": "knit-cardigan",
+      "category_id": "everyday-luxe",
+      "name": "Knit Cardigan",
+      "short_description": "Cozy knit cardigan for layering.",
+      "long_description": "Soft cardigan with button closure for extra warmth.",
+      "color_variants": ["Cream", "Grey"],
+      "size_variants": ["2-3 yrs", "4-5 yrs"],
+      "prices": {
+        "Cream": {
+          "2-3 yrs": 35,
+          "4-5 yrs": 40
+        },
+        "Grey": {
+          "2-3 yrs": 35,
+          "4-5 yrs": 40
+        }
+      },
+      "midjourney_prompt": "child playing at home in cozy knit cardigan.",
+      "tag": "layer",
+      "made_in": "Italy",
+      "materials_used": "Wool blend",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/1mk0ezjYrtcVLeMO1mKbHV/1ca157eaab1428826fabe1d363ea7055/knit-cardigan-1.gif"
+      ]
+    },
+    {
+      "id": "active-play-set",
+      "category_id": "adventure-club",
+      "name": "Active Play Set",
+      "short_description": "T-shirt and shorts set for active kids.",
+      "long_description": "Durable set designed for running and playing outdoors.",
+      "color_variants": ["Green", "Orange"],
+      "size_variants": ["3-4 yrs", "5-6 yrs"],
+      "prices": {
+        "Green": {
+          "3-4 yrs": 45,
+          "5-6 yrs": 50
+        },
+        "Orange": {
+          "3-4 yrs": 45,
+          "5-6 yrs": 50
+        }
+      },
+      "midjourney_prompt": "energetic child playing outside wearing active set.",
+      "tag": "sporty",
+      "made_in": "Vietnam",
+      "materials_used": "Polyester, Cotton blend",
+      "imgUrl": ["https://images.ctfassets.net/qm3xz8whzgyj/5w1Hi7b4qG9OhPPteJc7D7/c7b13eec54bf50f2a821798f678e63d4/active-play-set.png"]
+    },
+    {
+      "id": "striped-beanie-hat",
+      "category_id": "tiny-essentials",
+      "name": "Striped Beanie Hat",
+      "short_description": "Warm beanie hat with playful stripes.",
+      "long_description": "Colorful beanie hat that keeps little heads warm.",
+      "color_variants": ["Red/Blue", "Pink/Grey"],
+      "size_variants": ["One Size"],
+      "prices": {
+        "Red/Blue": {
+          "One Size": 15
+        },
+        "Pink/Grey": {
+          "One Size": 15
+        }
+      },
+      "midjourney_prompt": "child smiling in cozy striped beanie hat.",
+      "tag": "accessory",
+      "made_in": "Bangladesh",
+      "materials_used": "Wool blend",
+      "imgUrl": ["https://images.ctfassets.net/qm3xz8whzgyj/1BHubvN95YgumgdWAr12p3/243ba978dd5c7b623adf7c3fc931da71/striped-beanie-hat.png"]
+    },
+    {
+      "id": "embroidered-sweatshirt",
+      "category_id": "everyday-luxe",
+      "name": "Embroidered Sweatshirt",
+      "short_description": "Sweatshirt with delicate embroidery.",
+      "long_description": "Comfortable sweatshirt with soft inner lining and detailed embroidery.",
+      "color_variants": ["Beige", "Blue"],
+      "size_variants": ["4-5 yrs", "6-7 yrs"],
+      "prices": {
+        "Beige": {
+          "4-5 yrs": 35,
+          "6-7 yrs": 40
+        },
+        "Blue": {
+          "4-5 yrs": 35,
+          "6-7 yrs": 40
+        }
+      },
+      "midjourney_prompt": "child lounging at home in embroidered sweatshirt.",
+      "tag": "trendy",
+      "made_in": "Spain",
+      "materials_used": "Cotton blend",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/7lV0PU4kQ9QC7lm9AJ1yDz/efc2aa6491a5eaa2da9c9ac27418365f/embroidered-sweatshirt.png"
+      ]
+    },
+    {
+      "id": "holiday-socks-pack",
+      "category_id": "tiny-essentials",
+      "name": "Holiday Socks Pack",
+      "short_description": "Pack of festive-themed socks.",
+      "long_description": "Three-pair pack of holiday-inspired socks in soft cotton.",
+      "color_variants": ["Mixed"],
+      "size_variants": ["2-3 yrs", "4-5 yrs"],
+      "prices": {
+        "Mixed": {
+          "2-3 yrs": 20,
+          "4-5 yrs": 22
+        }
+      },
+      "midjourney_prompt": "child wearing colorful holiday socks.",
+      "tag": "festive",
+      "made_in": "India",
+      "materials_used": "Cotton, Elastane",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/1iJRIbR9k4uJtP1kRhfZJd/0c7bdc03447194d1f1427d977e36a803/holiday-socks-pack-1.png",
+        "https://images.ctfassets.net/qm3xz8whzgyj/6rHmjFxpGWkeWrTXcOPT5O/2f7bc2e2661f6c0e7c412b9a502d04c9/holiday-socks-pack-2.png",
+        "https://images.ctfassets.net/qm3xz8whzgyj/3gDACDk8CBvp5iU3ZyEFan/886244fbc7674bfa8eeb3d81ef6776a6/holiday-socks-pack-3.png"
+      ]
+    },
+    {
+      "id": "fleece-hoodie",
+      "category_id": "adventure-club",
+      "name": "Fleece Hoodie",
+      "short_description": "Warm fleece hoodie for outdoor play.",
+      "long_description": "Soft fleece hoodie designed for comfort during chilly days.",
+      "color_variants": ["Navy", "Burgundy"],
+      "size_variants": ["5-6 yrs", "7-8 yrs"],
+      "prices": {
+        "Navy": {
+          "5-6 yrs": 40,
+          "7-8 yrs": 45
+        },
+        "Burgundy": {
+          "5-6 yrs": 40,
+          "7-8 yrs": 45
+        }
+      },
+      "midjourney_prompt": "child smiling outdoors in fleece hoodie.",
+      "tag": "outdoor",
+      "made_in": "China",
+      "materials_used": "Fleece Polyester",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/2VP6XXo7veDS6oOMzCiLDD/bf84e1e21daf884664fad7dd2a93c71c/fleece-hoodie-1.png",
+        "https://images.ctfassets.net/qm3xz8whzgyj/1OO2zTaX8fYQV0VgCrxobo/1b32bec114d748c979592d628102497b/fleece-hoodie-2.png"
+      ]
+    },
+    {
+      "id": "silk-bow-tie",
+      "category_id": "tiny-essentials",
+      "name": "Silk Bow Tie",
+      "short_description": "Elegant silk bow tie for formal occasions.",
+      "long_description": "Premium silk bow tie designed to complement formal attire.",
+      "color_variants": ["Black", "Navy"],
+      "size_variants": ["One Size"],
+      "prices": {
+        "Black": {
+          "One Size": 25
+        },
+        "Navy": {
+          "One Size": 25
+        }
+      },
+      "midjourney_prompt": "child dressed formally wearing silk bow tie.",
+      "tag": "formal",
+      "made_in": "France",
+      "materials_used": "100% Silk",
+      "imgUrl": ["https://images.ctfassets.net/qm3xz8whzgyj/PHnXMIUk9D7Jk3vNXvX6Y/05f9e0c4c7750637ec101126769f1d63/silk-bow-tie-1.png","https://images.ctfassets.net/qm3xz8whzgyj/23zqFcG7LZtiRPt6OLCJB3/90b47fa31ca4641da5787cd97ac666f5/silk-bow-tie-2.png"]
+    },
+    {
+      "id": "velvet-charm-dress",
+      "category_id": "little-royals",
+      "name": "Velvet Charm Dress",
+      "short_description": "Velvet dress with lace and pearl details.",
+      "long_description": "Luxurious velvet dress, perfect for special occasions.",
+      "color_variants": ["Royal Navy", "Blush Pink"],
+      "size_variants": ["2-3 yrs", "4-5 yrs"],
+      "prices": {
+        "Royal Navy": { "2-3 yrs": 80, "4-5 yrs": 85 },
+        "Blush Pink": { "2-3 yrs": 80, "4-5 yrs": 85 }
+      },
+      "discounted_prices": { "Royal Navy": { "2-3 yrs": 70, "4-5 yrs": 75 } },
+      "midjourney_prompt": "luxury velvet dress, lace trims, pearl details, child wearing elegantly.",
+      "tag": "bestseller",
+      "made_in": "Italy",
+      "materials_used": "Velvet (80% Cotton, 20% Polyester), Lace (100% Cotton), Pearls",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/3RIFweH3jlHYumyg04xpEr/2f74d9373fabc93b13939fbdcfac6dae/velvet-charm-dress.png"
+      ]
+    },
+    {
+      "id": "classic-tuxedo-set",
+      "category_id": "little-royals",
+      "name": "Classic Tuxedo Set",
+      "short_description": "Elegant tuxedo set for formal occasions.",
+      "long_description": "Sophisticated tuxedo set featuring jacket, trousers, and bowtie.",
+      "color_variants": ["Black"],
+      "size_variants": ["3-4 yrs", "5-6 yrs"],
+      "prices": { "Black": { "3-4 yrs": 120, "5-6 yrs": 130 } },
+      "midjourney_prompt": "child wearing elegant black tuxedo, classic style, formal setting.",
+      "tag": "classic",
+      "made_in": "France",
+      "materials_used": "Wool blend, Satin lining",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/7xYBHkIT6Z9YjyvRZDgQe0/f9b5b618a934cc8b281c58239ebc7f3b/classic-tuxedo-set-1.png",
+        "https:////images.ctfassets.net/qm3xz8whzgyj/2C12yBSBAhcc65o09OO4nT/9407514b78fcb301bdcf483abf1c4a5f/classic-tuxedo-set-2.png",
+        "https://images.ctfassets.net/qm3xz8whzgyj/16eKH1g6KO4c5GIhd092oW/ed78eefc9fe561a445be00bd015d2777/classic-tuxedo-set-3.png"
+      ]
+    },
+    {
+      "id": "sunshine-romper",
+      "category_id": "everyday-luxe",
+      "name": "Sunshine Romper",
+      "short_description": "Comfortable romper perfect for playdates.",
+      "long_description": "Lightweight cotton romper designed for comfort and style.",
+      "color_variants": ["Yellow", "Mint"],
+      "size_variants": ["1-2 yrs", "2-3 yrs"],
+      "prices": {
+        "Yellow": { "1-2 yrs": 40, "2-3 yrs": 45 },
+        "Mint": { "1-2 yrs": 40, "2-3 yrs": 45 }
+      },
+      "discounted_prices": { "Mint": { "1-2 yrs": 35, "2-3 yrs": 40 } },
+      "midjourney_prompt": "happy child in lightweight cotton romper, playful environment.",
+      "tag": "favorite",
+      "made_in": "Spain",
+      "materials_used": "100% Cotton",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/kbDx5pfKjKX4GtIgs51If/29cced0ee6eb201fde71e90fb8011e3b/sunshine-romper.png"
+      ]
+    },
+    {
+      "id": "moonlight-pajamas",
+      "category_id": "dreamy-nights",
+      "name": "Moonlight Pajamas",
+      "short_description": "Soft pajamas for restful sleep.",
+      "long_description": "Comfortable pajamas made with breathable cotton.",
+      "color_variants": ["White", "Lavender"],
+      "size_variants": ["3-4 yrs", "5-6 yrs"],
+      "prices": {
+        "White": { "3-4 yrs": 35, "5-6 yrs": 40 },
+        "Lavender": { "3-4 yrs": 35, "5-6 yrs": 40 }
+      },
+      "midjourney_prompt": "child sleeping peacefully in soft pajamas, cozy bedroom scene.",
+      "tag": "cozy",
+      "made_in": "Portugal",
+      "materials_used": "Organic Cotton",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/4drLquFv38TnX6yI3SQyIb/9b84c8b03917906f4b765dd702ab1b7b/moonlight-pajamas-1.png",
+        "https://images.ctfassets.net/qm3xz8whzgyj/1m6F93VMoOmyD11oJRxYIf/50ce7eb9aeb4b827392efff5b61e5e59/moonlight-pajamas-2.png"
+      ]
+    },
+    {
+      "id": "explorer-jacket",
+      "category_id": "adventure-club",
+      "name": "Explorer Jacket",
+      "short_description": "Durable jacket for outdoor activities.",
+      "long_description": "Robust jacket suitable for adventures and play.",
+      "color_variants": ["Forest Green"],
+      "size_variants": ["4-5 yrs", "6-7 yrs"],
+      "prices": { "Forest Green": { "4-5 yrs": 60, "6-7 yrs": 65 } },
+      "discounted_prices": { "Forest Green": { "4-5 yrs": 50 } },
+      "midjourney_prompt": "active child outdoors in durable green jacket, adventure setting.",
+      "tag": "durable",
+      "made_in": "Canada",
+      "materials_used": "Water-resistant Nylon, Polyester lining",
+      "imgUrl": [
+        "https://images.ctfassets.net/qm3xz8whzgyj/3Cbaf9j31pVTGHkgPMkbkR/7a0226a7b521cb2127fbf1c3a0129ca0/explorer-jacket-1.png"
+      ]
+    }
+  ]
+}

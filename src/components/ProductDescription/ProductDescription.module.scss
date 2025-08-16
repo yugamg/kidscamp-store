@@ -1,0 +1,46 @@
+.descriptionContainer {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.sectionText {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.toggle {
+  cursor: pointer;
+  color: #2c449d;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 5px;
+
+  &:hover {
+    color: #1d3579;
+  }
+}
+
+@media (max-width: 768px) {
+  .descriptionContainer {
+    padding: 0 15px;
+  }
+
+  .sectionTitle {
+    font-size: 1rem;
+  }
+
+  .sectionText {
+    font-size: 0.95rem;
+  }
+}

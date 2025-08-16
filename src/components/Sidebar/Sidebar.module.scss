@@ -1,0 +1,146 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: fadeIn 0.3s ease;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 75%;
+  max-width: 400px;
+  height: 100vh;
+  background: #1a365d;
+  z-index: 1000;
+  transition: left 0.3s ease;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+
+  &.open {
+    left: 0;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.navigation {
+  flex: 1;
+  padding: 1rem 0;
+}
+
+.menuList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.menuLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  span {
+    flex: 1;
+  }
+}
+
+.chevron {
+  color: white;
+  opacity: 0.7;
+  transition: transform 0.2s ease;
+}
+
+.menuLink:hover .chevron {
+  transform: rotate(180deg);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .sidebar {
+    width: 85%;
+  }
+
+  .menuLink {
+    padding: 1.2rem 1.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 90%;
+  }
+
+  .header {
+    padding: 1rem;
+  }
+
+  .menuLink {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+  }
+}
